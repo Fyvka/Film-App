@@ -1,0 +1,41 @@
+.content {
+   min-height: calc(100vh - 70px - 64px);
+}
+
+.moviesS {
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   gap: 1rem;
+}
+
+.prel {
+   position: absolute;
+   margin-top: 40vh;
+}
+
+.search-btn {
+   position: absolute;
+   top: 0;
+   right: 0.5em;
+}
+
+label:not(:last-child) {
+   margin-right: 1rem;
+}
+
+.zeros {
+   text-decoration: none;
+   color: #fff;
+}
+
+.noFound {
+   position: absolute;
+   align-items: center;
+   justify-content: center;
+   width: 70%;
+   top: 25vh;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
